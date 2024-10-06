@@ -231,4 +231,4 @@ startSortBtn.addEventListener("click", async () => {
 });
 
 // Initialize with a random array on page load
-generateArray(30);
+generateArray(40);
