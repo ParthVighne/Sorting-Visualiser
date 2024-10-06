@@ -6,7 +6,7 @@ const algorithmSelector = document.getElementById("algorithm");
 let array = [];
 
 // Generate a random array and display the bars
-function generateArray(size = 30) {
+function generateArray(size = 40) {
   array = [];
   arrayContainer.innerHTML = ""; // Clear previous array
 
@@ -205,7 +205,7 @@ async function selectionSort() {
 }
 
 // Event Listeners
-generateArrayBtn.addEventListener("click", () => generateArray(30)); // Generate new array on click
+generateArrayBtn.addEventListener("click", () => generateArray(40)); // Generate new array on click
 
 startSortBtn.addEventListener("click", async () => {
   const algorithm = algorithmSelector.value;
